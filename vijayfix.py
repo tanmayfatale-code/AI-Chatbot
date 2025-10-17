@@ -38,7 +38,7 @@ def input_instruction():
         print("Error:", e)
     return ""  # Return empty if error
 
-def play_pratham():
+def play_Tanmay():
     while True:
         instruction = input_instruction()
 
@@ -61,7 +61,7 @@ def play_pratham():
             talk("I am fine, how about you")
 
         elif "what is your name" in instruction:
-            talk("I am Pratham, what can I do for you?")
+            talk("I am Tanmay, what can I do for you?")
 
         elif "who is" in instruction:
             try:
@@ -76,4 +76,5 @@ def play_pratham():
             sys.exit(0)
 
 # Start the assistant
-play_pratham()
+play_Tanmay()
+
